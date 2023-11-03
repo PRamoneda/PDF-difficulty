@@ -51,6 +51,12 @@ sudo apt-get update && sudo apt-get install ffmpeg libsm6 libxext6 imagemagick g
 python -m pip install -r requirements.txt
 ```
 
+## Download the weights
+
+```sh
+git clone https://huggingface.co/mtg-upf/PDF-Difficulty-ISMIR2023
+```
+
 ## Inference
 
 ```Python
@@ -59,3 +65,7 @@ from pdf_difficulty.predict_difficulty import predict_difficulty
 diff_cipi, diff_ps, diff_fs = predict_difficulty("examples/124.pdf")
 print(diff_cipi, diff_ps, diff_fs)
 ```
+
+## Training the model
+
+Ask to `pedro.ramoneda@upf.edu`

@@ -11,7 +11,7 @@ def get_backbone(bscore):
                         first_layer=first_layer, bias=False, weight_loss=5)
     model = GPT(gptconf)
 
-    checkpoint = torch.load(f"models/gpt2-base-fc-real/ckpt.pt",
+    checkpoint = torch.load(f"PDF-Difficulty-ISMIR2023/models/gpt2-base-fc-real/ckpt.pt",
                             map_location=torch.device('cpu'))
     # get the model
     model.load_state_dict(checkpoint['model'])

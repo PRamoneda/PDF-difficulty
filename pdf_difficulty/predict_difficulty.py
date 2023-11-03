@@ -22,10 +22,10 @@ def bootleg2difficulty(machine_readable_mtrx):
 
     device = 'cpu'
     model = gpt2_classiffier_2_multi(
-        checkpoint_dir=f"models/pt2-imslp-ft_fc5_real", device=device
+        checkpoint_dir=f"PDF-Difficulty-ISMIR2023/models/pt2-imslp-ft_fc5_real", device=device
     )
     checkpoint = torch.load(
-        f"models/multi_weighted_per_dataset/checkpoint_0.pth",
+        f"PDF-Difficulty-ISMIR2023/models/multi_weighted_per_dataset/checkpoint_0.pth",
         map_location=torch.device('cpu')
     )
 
