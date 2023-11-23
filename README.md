@@ -15,7 +15,7 @@ To cite this work, please use the following bibtex entry:
 }
 ```
 
- [Paper](https://arxiv.org/pdf/2309.16287.pdf) | [Dataset](https://zenodo.com/record/8126801) | [Demo](https://musiccritic.upf.edu/pdf_difficulty/) 
+ [Paper](https://arxiv.org/pdf/2309.16287.pdf) | [Dataset](https://zenodo.org/records/8126801) | [Demo](https://musiccritic.upf.edu/pdf_difficulty/) 
 
 ## Abstract
 
